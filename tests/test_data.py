@@ -26,6 +26,8 @@ def dataset():
 
 
 def test_downloaded_files_match_pinned_checksums():
+    if not DATA_DIR.exists():
+        pytest.skip("Dataset absent; run make data")
     # The checksum pin is the whole point of the download step, so test it
     # directly rather than trusting that download_banking77 ran.
     for relative, expected in EXPECTED_SHA256.items():
