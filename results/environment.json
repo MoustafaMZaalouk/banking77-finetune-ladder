@@ -1,0 +1,16 @@
+{
+  "python": "3.10.12",
+  "platform": "Linux-7.3.4-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "cpu_count": 1,
+  "recorded_at": "2026-11-24T06:35:12Z",
+  "cpu_model": "AMD EPYC 9655 96-Core Processor",
+  "mem_total_kb": 2041292,
+  "torch": "2.14.1+cpu",
+  "transformers": "5.20.2",
+  "sentence-transformers": "6.3.0",
+  "setfit": "1.2.0",
+  "scikit-learn": "1.7.2",
+  "datasets": "5.2.0",
+  "numpy": "2.2.6"
+}

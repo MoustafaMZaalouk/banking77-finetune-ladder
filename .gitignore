@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+# Dataset files are downloaded by `make data` with checksum verification,
+# never committed (CC BY 4.0; keep the repo to code and results).
+data/

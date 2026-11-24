@@ -1,0 +1,16 @@
+# pinned for reproducible `make ladder && make report`
+torch==2.14.1
+transformers==5.20.2
+sentence-transformers[train]==6.3.0
+setfit==1.2.0
+datasets==5.2.0
+accelerate==1.15.0
+evaluate==0.4.6
+huggingface-hub==2.4.0
+tokenizers==0.23.3
+scikit-learn==1.7.2
+numpy==2.2.6
+scipy==1.15.3
+pyarrow==25.0.1
+matplotlib==3.10.9
+PyYAML==6.0.3

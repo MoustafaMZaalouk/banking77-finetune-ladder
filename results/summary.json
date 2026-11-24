@@ -1,0 +1,104 @@
+{
+  "tfidf_lr": {
+    "label": "TF-IDF + logistic regression",
+    "runs": 1,
+    "seeds": [
+      null
+    ],
+    "accuracies": [
+      0.8571428571428571
+    ],
+    "accuracy_mean": 0.8571428571428571,
+    "accuracy_std": null,
+    "macro_f1_mean": 0.855800602339563,
+    "macro_f1_std": null,
+    "n_train": 10003,
+    "mean_train_seconds": 7.619179454999994,
+    "mean_eval_seconds": 0.08967842300000939,
+    "total_seconds": 7.708857878000003
+  },
+  "frozen_minilm_lr": {
+    "label": "Frozen MiniLM + logistic regression",
+    "runs": 1,
+    "seeds": [
+      null
+    ],
+    "accuracies": [
+      0.9081168831168831
+    ],
+    "accuracy_mean": 0.9081168831168831,
+    "accuracy_std": null,
+    "macro_f1_mean": 0.9080748065777133,
+    "macro_f1_std": null,
+    "n_train": 10003,
+    "mean_train_seconds": 34.05285866200006,
+    "mean_eval_seconds": 9.863929138000003,
+    "total_seconds": 43.916787800000066
+  },
+  "setfit_10": {
+    "label": "SetFit, 10 examples/class",
+    "runs": 3,
+    "seeds": [
+      42,
+      1337,
+      2024
+    ],
+    "accuracies": [
+      0.7944805194805195,
+      0.7840909090909091,
+      0.7827922077922078
+    ],
+    "accuracy_mean": 0.7871212121212121,
+    "accuracy_std": 0.006406341379631474,
+    "macro_f1_mean": 0.7837222353782368,
+    "macro_f1_std": 0.0062397986775817055,
+    "n_train": 770,
+    "mean_train_seconds": 1898.0057801806663,
+    "mean_eval_seconds": 13.062338600333229,
+    "total_seconds": 5733.204356342999
+  },
+  "setfit_100": {
+    "label": "SetFit, 100 examples/class",
+    "runs": 3,
+    "seeds": [
+      42,
+      1337,
+      2024
+    ],
+    "accuracies": [
+      0.8762987012987012,
+      0.8788961038961038,
+      0.8724025974025974
+    ],
+    "accuracy_mean": 0.8758658008658008,
+    "accuracy_std": 0.0032683265953552744,
+    "macro_f1_mean": 0.8756992908729545,
+    "macro_f1_std": 0.0031563955959283546,
+    "n_train": 7438,
+    "mean_train_seconds": 1852.101852567667,
+    "mean_eval_seconds": 13.055196337999709,
+    "total_seconds": 5595.471146717
+  },
+  "full_finetune": {
+    "label": "Full fine-tune (all data)",
+    "runs": 3,
+    "seeds": [
+      42,
+      1337,
+      2024
+    ],
+    "accuracies": [
+      0.8795454545454545,
+      0.8857142857142857,
+      0.8831168831168831
+    ],
+    "accuracy_mean": 0.8827922077922077,
+    "accuracy_std": 0.0030972051994056613,
+    "macro_f1_mean": 0.8764116600522162,
+    "macro_f1_std": 0.003750628968347686,
+    "n_train": 10003,
+    "mean_train_seconds": 711.2168751366667,
+    "mean_eval_seconds": 29.7769210789999,
+    "total_seconds": 2222.9813886469997
+  }
+}
