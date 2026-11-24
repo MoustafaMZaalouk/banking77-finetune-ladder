@@ -1,6 +1,6 @@
 # BANKING77 Fine-Tune Ladder
 
-[![CI](https://github.com/MoustafaMZaalouk/banking77-finetune-ladder/workflows/CI/badge.svg)](https://github.com/MoustafaMZaalouk/banking77-finetune-ladder/blob/main/.github/workflows/ci.yml)
+[![CI](https://github.com/MoustafaMZaalouk/banking77-finetune-ladder/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/MoustafaMZaalouk/banking77-finetune-ladder/actions/workflows/ci.yml)
 
 *Live workflow status, not a production-readiness or model-quality rating.*
 
